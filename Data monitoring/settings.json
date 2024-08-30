@@ -1,0 +1,30 @@
+{
+    "Devices":[
+        {
+            "Count": 1,
+            "Name": "Коридор",
+            "NameEng":"hall",
+            "MeasurementPointsCount":1,
+            "MeasurementPointsNames":[],
+            "MeasurementPointsDimensions":["°C"]
+        },
+        {
+            "Count":1,
+            "Name":"Хладилник",
+            "NameEng":"refrigerator",
+            "MeasurementPointsCount":1,
+            "MeasurementPointsNames":[],
+            "MeasurementPointsDimensions":["°C"]
+        }
+    ],
+    "Queries":{
+        "MeasurementParameters":[
+            "Температура",
+            "Аларми"
+        ],
+        "Devices":[
+            "Коридор",
+            "Хладилник"
+        ]
+    }
+}

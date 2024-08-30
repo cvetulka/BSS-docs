@@ -1,0 +1,27 @@
+    public enum IntelligentServicesCommand
+    {
+        None = 0,
+        Ping = 1,
+        Get = 2,
+        Put = 3,
+        Heartbeat = 4,
+        GetAccessRightsTable = 5,
+        AccessRightsTableChanged = 6,
+        PostAccessAttempt = 7,
+        AddSheet = 8,
+        AddTag = 9,
+        ConnectNodes = 10,
+        Register = 11,
+        SendObject = 12,
+        GetAllSubscribers = 13,
+        Authorize = 14,
+        SubscriberAdded = 15,
+        SubscriberRemoved = 16,
+        GetSalt = 17,
+        GetBigObject = 18,
+        SetupConnectionString = 19,
+        OpenDoor = 20,
+        SignOut = 21,
+        GetModelVersion = 22,
+        SendTemperature = 23
+    }

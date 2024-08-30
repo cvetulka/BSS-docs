@@ -1,0 +1,18 @@
+namespace Infrastructure.Enums
+{
+    public enum IntelligentServicesResult
+    {
+        Unknown = -1,
+        None = 0,
+        Acknowleage = 1,
+        Success = 2,
+        Fail = 3,
+        Registered = 4,
+        DataRedirected = 5,
+        NotRegistred = 6,
+        AlreadyRegistred = 7,
+        Authorized = 8,
+        NotAuthorized = 9,
+        SignedOut = 10
+    }
+}
